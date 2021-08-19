@@ -38,7 +38,6 @@ class GameFragment : Fragment() {
             txtTurn.text = "$playerName's Turn"
 
         }
-
         btnSubmit.setOnClickListener {
             if(txtAnswer.text.toString() == (angka1+angka2).toString())
             {
